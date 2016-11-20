@@ -1,6 +1,6 @@
 # Learning from beevelop. thanks!!
 
-FROM amostsai/cordova:6.3.1
+FROM amostsai/cordova
 
 MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 
