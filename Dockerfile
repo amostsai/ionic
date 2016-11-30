@@ -4,8 +4,8 @@ FROM amostsai/cordova
 
 MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 
-ENV IONIC_VERSION=1.7.16 \
-    BOWER_VERSION=5.0.4
+ENV IONIC_VERSION=2.1.14 \
+    BOWER_VERSION=1.8.0
 
 RUN npm i -g --unsafe-perm ionic@${IONIC_VERSION} bower && \
     npm cache clear
