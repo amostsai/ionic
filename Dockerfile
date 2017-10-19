@@ -8,4 +8,4 @@ ENV IONIC_VERSION=latest \
     BOWER_VERSION=1.8.2
 
 RUN npm i -g --unsafe-perm ionic@${IONIC_VERSION} bower@${BOWER_VERSION} && \
-    npm cache clear
+    npm cache verify
